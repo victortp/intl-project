@@ -3,8 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/victortp/intl-project?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/victortp/intl-project?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/victortp/intl-project?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/victortp/intl-project?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/victortp/intl-project?style=for-the-badge)
+![Github open issues](https://img.shields.io/github/issues/victortp/intl-project?style=for-the-badge)
+![Github open pull requests](https://img.shields.io/github/pr-raw/victortp/intl-project?style=for-the-badge)
 
 Intl CLI is a project created to try out the JavaScript Internalization API
 
