@@ -1,0 +1,33 @@
+{
+  "name": "intl-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon --ignore database.json --exec node src/index.js",
+    "test": "npx mocha -w --parallel -r mocha-suppress-logs tests/*.test.js",
+    "test:coverage": "npx nyc npx mocha -r reify -r mocha-suppress-logs --parallel tests/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chalk-table": "^1.0.2",
+    "draftlog": "^1.0.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mocha-suppress-logs": "^0.3.1",
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "reify": "^0.20.12",
+    "sinon": "^9.2.1"
+  }
+}
