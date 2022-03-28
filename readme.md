@@ -13,6 +13,10 @@ Intl CLI is a project created to try out the JavaScript Internalization API
 - Display formatted output into the console according to chosen language
 - 100% of the code covered with tests
 
+## TODO
+
+- Add validation
+
 ## Requirements
 
 - You need to have installed Node.js on version 14.3 ([download](https://nodejs.org/en/download/))
@@ -23,6 +27,15 @@ Intl CLI is a project created to try out the JavaScript Internalization API
   $ git clone https://github.com/victortp/intl-project
   $ cd intl-project
   $ npm ci
+```
+
+## Usage
+
+In the CLI, enter a text following the template below to add data to the JSON file:
+
+```
+  {id} {comma separated vehicles} {Km traveled} {date from (yyyy-mm-dd)} {date to (yyyy-mm-dd)}
+  $ 2 Boat,Ferry 10000 2022-03-01 2022-03-28
 ```
 
 ## Running the project
